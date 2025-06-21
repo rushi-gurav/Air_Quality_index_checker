@@ -3,7 +3,7 @@ from tkinter import *
 
 def get_air_quality():
 	city_name = ent_city.get()
-	api_token = "6f577b5cb63595ef8efe1fb42425d314de15301f"  
+	api_token = "#"  
 	url = f"https://api.waqi.info/feed/{city_name}/?token={api_token}"
     
 	try:
